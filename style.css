@@ -1,19 +1,4 @@
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-img {
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    height: 110vh;
-  }
-
 
 @media (max-width: 768px) {
   img {
@@ -40,7 +25,21 @@ img {
   .funtext {
     font-size: calc(36px + 2vh);
   }
-}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+img {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+  }
   
   .window {
     position: relative;
